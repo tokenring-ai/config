@@ -1,6 +1,6 @@
 import { Service } from "@token-ring/registry";
 import { create } from "zustand";
-import EventEmitter from "events";
+import EventEmitter from "eventemitter3";
 
 const defaultConfig = {
 	defaults: {
