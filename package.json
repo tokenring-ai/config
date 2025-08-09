@@ -7,12 +7,17 @@
 		"@token-ring/eslint-config": "0.0.0"
 	},
 	"main": "index.js",
+	"types": "./index.d.ts",
 	"peerDependencies": {
 		"zustand": "^4.0.0"
 	},
 	"license": "MIT",
 	"type": "module",
 	"scripts": {
+		"build": "tsc -p .",
 		"eslint": "eslint --fix ./"
+	},
+	"devDependencies": {
+		"typescript": "^5.6.3"
 	}
 }
